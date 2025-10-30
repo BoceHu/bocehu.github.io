@@ -73,6 +73,9 @@ a:hover {
   color: #f09228;
   text-decoration: none;
 }
+a {
+  transition: color 0.3s ease;
+}
 
 body,
 td,
