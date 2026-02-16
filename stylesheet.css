@@ -136,3 +136,21 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.news-toggle {
+  display: inline-block;
+  margin-top: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.news-toggle:hover {
+  color: #f09228;
+}
+
+#news-list {
+  overflow: hidden;
+  transition: max-height 250ms ease;
+}
