@@ -361,3 +361,9 @@ a:hover .me {
     transition: none !important;
   }
 }
+
+.visitor-map {
+  margin-top: 14px;
+  opacity: 0.7;
+  display: none;
+}
