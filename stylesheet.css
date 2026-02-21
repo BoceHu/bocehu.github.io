@@ -6,8 +6,8 @@
   --text-size: 14px;
   --leading: 1.62;
 
-  --primary: #f09228;
-  --primary-hover: #1772d0;
+  --primary: #6f2510;
+  --primary-hover: #3f1306;
 
   --text-main: #111827;
   --text-muted: #4b5563;
@@ -15,7 +15,7 @@
   --border: #e5e7eb;
   --bg: #ffffff;
 
-  --highlight: #fff2cf;
+  --highlight: #fdf2ef;
 
   --radius: 12px;
   --shadow: 0 1px 0 rgba(17, 24, 39, 0.04);
@@ -323,9 +323,9 @@ a:hover .me {
 }
 
 .badge-hot {
-  color: #7a1f1f;
-  background: rgba(176, 46, 46, 0.10);
-  border: 1px solid rgba(176, 46, 46, 0.35);
+  color: #7c3aed;
+  background: #f3e8ff;
+  /* border: 1px solid #0284c7; */
 }
 .badge-hot:hover {
   background: rgba(176, 46, 46, 0.16);
@@ -333,9 +333,9 @@ a:hover .me {
 }
 @media (prefers-color-scheme: dark) {
   .badge-hot {
-    color: #f2b8b8;
-    background: rgba(176, 46, 46, 0.22);
-    border-color: rgba(176, 46, 46, 0.45);
+    color: #7c3aed;
+    background: #f3e8ff;
+    /* border-color: #0284c7; */
   }
 }
 
