@@ -21,17 +21,6 @@
   --shadow: 0 1px 0 rgba(17, 24, 39, 0.04);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-main: #f3f4f6;
-    --text-muted: #cbd5e1;
-    --border: #334155;
-    --bg: #0b1220;
-    --highlight: rgba(240, 146, 40, 0.18);
-    --shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
-  }
-}
-
 *,
 *::before,
 *::after {
@@ -330,13 +319,6 @@ a:hover .me {
 .badge-hot:hover {
   background: rgba(176, 46, 46, 0.16);
   border-color: rgba(176, 46, 46, 0.5);
-}
-@media (prefers-color-scheme: dark) {
-  .badge-hot {
-    color: #7c3aed;
-    background: #f3e8ff;
-    /* border-color: #0284c7; */
-  }
 }
 
 .simple-list {
