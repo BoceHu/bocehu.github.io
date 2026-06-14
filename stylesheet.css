@@ -6,16 +6,17 @@
   --text-size: 14px;
   --leading: 1.62;
 
-  --primary: #6f2510;
-  --primary-hover: #3f1306;
+  --primary: #4f46e5;
+  
+  --primary-hover: #3730a3;
+  
+  --highlight: #eef2ff;
 
   --text-main: #111827;
   --text-muted: #4b5563;
 
   --border: #e5e7eb;
   --bg: #ffffff;
-
-  --highlight: #fdf2ef;
 
   --radius: 12px;
   --shadow: 0 1px 0 rgba(17, 24, 39, 0.04);
@@ -312,13 +313,23 @@ a:hover .me {
 }
 
 .badge-hot {
-  color: #7c3aed;
-  background: #f3e8ff;
-  /* border: 1px solid #0284c7; */
+
+  color: #dc2626;
+
+  background: #fee2e2;
+
+  border: 1px solid #fca5a5;
+
 }
+
 .badge-hot:hover {
-  background: rgba(176, 46, 46, 0.16);
-  border-color: rgba(176, 46, 46, 0.5);
+
+  color: #b91c1c;
+
+  background: #fecaca;
+
+  border-color: #ef4444;
+
 }
 
 .simple-list {
